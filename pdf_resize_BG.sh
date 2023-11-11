@@ -1,4 +1,5 @@
 #!/bin/bash
+# rev. 1.0 # pmalinov
 
 # Проверка на параметрите
 if [ $# -ne 1 ]; then
