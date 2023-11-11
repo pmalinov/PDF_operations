@@ -1,4 +1,5 @@
 #!/bin/bash
+# rev. 1.0 # pmalinov
 
 # Controllo i parametri
 if [ $# -ne 1 ]; then
@@ -76,3 +77,4 @@ exit
 # Lo script ridimensionerà quindi il file PDF e creerà un nuovo file PDF denominato /percorso/verso/file/input_small.pdf.
 
 # Lo script stamperà inoltre i percorsi completi dei file di input e output, nonché le loro dimensioni, sulla console.
+
