@@ -1,4 +1,5 @@
 #!/bin/bash
+# rev. 1.0 # pmalinov
 
 # Check parameters
 if [ $# -ne 1 ]; then
@@ -18,7 +19,7 @@ echo "1. Screen (72 dpi)"
 echo "2. Ebook (150 dpi)"
 echo "3. Printer (300 dpi)"
 echo "4. Prepress (300 dpi, preserves color)"
-echo "5. Default (almost identical to Screen)"
+echo "5. Default (almost identical to Ebook)"
 
 read -p "Select a mode (1-5): " option
 
@@ -67,10 +68,11 @@ exit
 
 # Prepress (300 dpi, preserves color)
 
-# Default (almost identical to Screen)
+# Default (almost identical to Ebook)
 
 # The script will then resize the PDF file 
 # and create a new PDF file named /path/to/input/file_small.pdf.
 
 # The script will also print the full paths of the input and output files, 
 # as well as their sizes in megabytes, to the console.
+
